@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(136, 191, 191);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.main-box {
+  display: grid;
+  justify-items: center;
+  grid-gap: 60px;
+}
+.boxes {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+.start-button {
+  height: 80px;
+  width: 140px;
+  background-color: rgb(3, 100, 100);
+  border: 0px;
+  border-radius: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.score {
+  height: 65px;
+  width: 140px;
+  padding: 15px 0 0 0;
+  background-color: rgb(3, 100, 100);
+  border: 0px;
+  border-radius: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+button:hover,
+button:active {
+  color: rgb(124, 231, 230);
+  background-color: rgb(16, 197, 197);
+  cursor: pointer;
+}
+.tile-box {
+  display: grid;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.tile {
+  border: 2px;
+  border-radius: 10px;
+  background-color: rgb(3, 62, 60);
+  width: 90px;
+  height: 90px;
+}
+.tile:hover {
+  box-shadow: inset 0px 0px 0px 4px rgb(221, 239, 166);
+  box-sizing: border-box;
+}
+.show {
+    background-color: rgb(249, 252, 158);
+}
+.red {
+    background-color: rgb(232, 78, 78);
+}
